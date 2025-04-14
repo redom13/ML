@@ -1,0 +1,12 @@
+National Drought Mitigation Center - UNL SPI Generator 1.7.6.0 Error Information
+Event Time:  10/1/2024 12:50:57 PM
+
+========================================================================================
+C:\Users\ASUS\Downloads\daily_precipitation.csv
+Message:  Input data doesn't end on December 31.  Application doesn't know how to aggregate data if it doesn't end on the last day of the year.  -SMO
+Source:  SPIGenerator
+Stack Trace:
+   at NationalDroughtMitigationCenter.SPICollection.ParseInputFileData(String FilePath, Delimiter delimiter) in C:\ndmc-unl\droughtriskatlas\code\spi_dll_c#\spi_standalone\spicollection.vb:line 100
+   at NationalDroughtMitigationCenter.frmProgressbar.ComputeFile(SPIArguments inputs) in C:\ndmc-unl\droughtriskatlas\code\spi_dll_c#\spi_standalone\frmProgressbar.vb:line 89
+
+
